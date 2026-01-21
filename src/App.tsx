@@ -192,8 +192,8 @@ export default function App() {
   };
 
   const getCustomerOrders = useCallback(() => {
-    if (!currentCustomer) return [];
-    return (ordersAPI.data || []).filter(order => order.customerEmail === currentCustomer.email);
+    if (!currentCustomer || !ordersAPI.data) return [];
+    return ordersAPI.data.filter(order => order.customerEmail === currentCustomer.email);
   }, [currentCustomer, ordersAPI.data]);
 
   // Função para criar pedido quando finalizar compra
@@ -233,7 +233,7 @@ export default function App() {
   };
 
   // Show loading screen while initializing
-  if (!isInitialized || (productsAPI.loading && !(productsAPI.data || []).length)) {
+  if (!isInitialized || (productsAPI.loading && (!productsAPI.data || !productsAPI.data.length))) {
     return (
       <div className="min-h-screen bg-black flex items-center justify-center">
         <div className="text-center">
