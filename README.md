@@ -1,11 +1,6 @@
-
-  # Magotech
-
-  This is a code bundle for Magotech. The original project is available at https://www.figma.com/design/AiOFDmvQOKcQTymWd8x0EY/Magotech.
-
-  ## Running the code
-
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
-  
+git init
+git add .
+git commit -m "Ready for deployment"
+git branch -M main
+git remote add origin https://github.com/seu-usuario/magotech.git
+git push -u origin main
