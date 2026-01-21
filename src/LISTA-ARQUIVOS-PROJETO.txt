@@ -1,0 +1,251 @@
+═══════════════════════════════════════════════════════════════
+   LISTA DE ARQUIVOS DO PROJETO MAGOTECH - COPIE ESTES!
+═══════════════════════════════════════════════════════════════
+
+✅ ARQUIVOS NA RAIZ (8 arquivos):
+──────────────────────────────────────────────────────────────
+
+1. App.tsx
+2. main.tsx
+3. index.html
+4. package.json
+5. tsconfig.json
+6. tsconfig.node.json
+7. vite.config.ts
+8. README.md
+
+
+✅ PASTA: styles/ (1 arquivo):
+──────────────────────────────────────────────────────────────
+
+styles/
+  └── globals.css
+
+
+✅ PASTA: components/ (17 arquivos principais):
+──────────────────────────────────────────────────────────────
+
+components/
+  ├── AdminDashboard.tsx
+  ├── AdminLogin.tsx
+  ├── AdminPanel.tsx
+  ├── AdminSidebar.tsx
+  ├── Cart.tsx
+  ├── CustomerAuth.tsx
+  ├── CustomerManagement.tsx
+  ├── CustomerProfile.tsx
+  ├── Footer.tsx
+  ├── Header.tsx
+  ├── HeroSection.tsx
+  ├── ImageUpload.tsx
+  ├── OrderManagement.tsx
+  ├── ProductCard.tsx
+  ├── ProductManagement.tsx
+  ├── Reports.tsx
+  └── Settings.tsx
+  └── UnsplashSuggestions.tsx
+
+
+✅ PASTA: components/figma/ (1 arquivo):
+──────────────────────────────────────────────────────────────
+
+components/figma/
+  └── ImageWithFallback.tsx
+
+
+✅ PASTA: components/ui/ (45 arquivos):
+──────────────────────────────────────────────────────────────
+
+components/ui/
+  ├── accordion.tsx
+  ├── alert-dialog.tsx
+  ├── alert.tsx
+  ├── aspect-ratio.tsx
+  ├── avatar.tsx
+  ├── badge.tsx
+  ├── breadcrumb.tsx
+  ├── button.tsx
+  ├── calendar.tsx
+  ├── card.tsx
+  ├── carousel.tsx
+  ├── chart.tsx
+  ├── checkbox.tsx
+  ├── collapsible.tsx
+  ├── command.tsx
+  ├── context-menu.tsx
+  ├── dialog.tsx
+  ├── drawer.tsx
+  ├── dropdown-menu.tsx
+  ├── form.tsx
+  ├── hover-card.tsx
+  ├── input-otp.tsx
+  ├── input.tsx
+  ├── label.tsx
+  ├── menubar.tsx
+  ├── navigation-menu.tsx
+  ├── pagination.tsx
+  ├── popover.tsx
+  ├── progress.tsx
+  ├── radio-group.tsx
+  ├── resizable.tsx
+  ├── scroll-area.tsx
+  ├── select.tsx
+  ├── separator.tsx
+  ├── sheet.tsx
+  ├── sidebar.tsx
+  ├── skeleton.tsx
+  ├── slider.tsx
+  ├── sonner.tsx
+  ├── switch.tsx
+  ├── table.tsx
+  ├── tabs.tsx
+  ├── textarea.tsx
+  ├── toggle-group.tsx
+  ├── toggle.tsx
+  ├── tooltip.tsx
+  ├── use-mobile.ts
+  ├── utils.ts
+  └── visually-hidden.tsx
+
+
+✅ PASTA: hooks/ (1 arquivo):
+──────────────────────────────────────────────────────────────
+
+hooks/
+  └── useAPI.tsx
+
+
+✅ PASTA: utils/supabase/ (1 arquivo):
+──────────────────────────────────────────────────────────────
+
+utils/
+  └── supabase/
+      └── info.tsx
+
+
+✅ PASTA: supabase/functions/server/ (2 arquivos):
+──────────────────────────────────────────────────────────────
+
+supabase/
+  └── functions/
+      └── server/
+          ├── index.tsx
+          └── kv_store.tsx
+
+
+═══════════════════════════════════════════════════════════════
+   RESUMO: TOTAL DE ~75 ARQUIVOS
+═══════════════════════════════════════════════════════════════
+
+ESTRUTURA COMPLETA:
+
+magotech-loja/
+├── App.tsx
+├── main.tsx
+├── index.html
+├── package.json
+├── tsconfig.json
+├── tsconfig.node.json
+├── vite.config.ts
+├── README.md
+│
+├── styles/
+│   └── globals.css
+│
+├── components/
+│   ├── (17 arquivos .tsx)
+│   ├── figma/
+│   │   └── ImageWithFallback.tsx
+│   └── ui/
+│       └── (45 arquivos .tsx/.ts)
+│
+├── hooks/
+│   └── useAPI.tsx
+│
+├── utils/
+│   └── supabase/
+│       └── info.tsx
+│
+└── supabase/
+    └── functions/
+        └── server/
+            ├── index.tsx
+            └── kv_store.tsx
+
+
+═══════════════════════════════════════════════════════════════
+   ❌ NÃO COPIE ESTES (são guias de documentação):
+═══════════════════════════════════════════════════════════════
+
+❌ ARRASTE-E-SOLTE.md
+❌ Attributions.md
+❌ COMANDOS-COPIAR-COLAR.txt
+❌ COMANDOS-EXECUTAR.txt
+❌ COMANDOS-GIT-TERMINAL.md
+❌ COMECE-AQUI-MIRIAN.md
+❌ COMO-COLOCAR-NO-GITHUB.md
+❌ DADOS-REAIS-MAGOTECH.md
+❌ DEPLOY-GUIDE.md
+❌ DOWNLOAD-GUIDE.md
+❌ GITHUB-DESKTOP-FACIL.md
+❌ GITHUB-EXPORT.md
+❌ GITHUB-SEM-TERMINAL.md
+❌ GUIA-RAPIDO-GITHUB.md
+❌ INICIO-AQUI.md
+❌ INICIO-RAPIDO.md
+❌ INSTRUCOES-DNS-DOMINIO.md
+❌ INSTRUÇÕES-SETUP.md
+❌ PASSO-A-PASSO-GITHUB.md
+❌ README-GITHUB.md
+❌ SETUP-COMPLETO.md
+❌ SOLUÇÃO-DEFINITIVA.md
+❌ UPLOAD-AUTOMATICO-GITHUB.html
+❌ VERCEL-DEPLOY.md
+❌ VSCODE-GITHUB-FACIL.md
+❌ create-project.js
+❌ setup-project.sh
+❌ guidelines/
+
+
+═══════════════════════════════════════════════════════════════
+   📝 ORDEM DE CRIAÇÃO NO VS CODE:
+═══════════════════════════════════════════════════════════════
+
+1. Criar pasta: magotech-loja/
+2. Copiar arquivos da raiz (8 arquivos)
+3. Criar pasta styles/ e copiar globals.css
+4. Criar pasta components/ e copiar 17 arquivos
+5. Criar pasta components/figma/ e copiar ImageWithFallback.tsx
+6. Criar pasta components/ui/ e copiar 45 arquivos
+7. Criar pasta hooks/ e copiar useAPI.tsx
+8. Criar pasta utils/supabase/ e copiar info.tsx
+9. Criar pasta supabase/functions/server/ e copiar 2 arquivos
+
+PRONTO! ✅
+
+
+═══════════════════════════════════════════════════════════════
+   🚀 DEPOIS DE COPIAR, USE O GIT DO VS CODE:
+═══════════════════════════════════════════════════════════════
+
+1. Abrir VS Code
+2. File → Open Folder → Selecionar magotech-loja/
+3. Ctrl + Shift + P
+4. Digite: Git: Initialize Repository
+5. Ctrl + Shift + G (Source Control)
+6. Clicar em + (Stage All Changes)
+7. Escrever: "Initial commit - MAGOTECH Loja Virtual"
+8. Clicar em ✓ (Commit)
+9. Clicar em "Publish to GitHub"
+10. Escolher nome: -magotech-loja-
+11. Escolher: Private ou Public
+12. PRONTO! Código no GitHub! ✅
+
+
+═══════════════════════════════════════════════════════════════
+
+Criado para: Mirian Ramos (@mirianramosdev)
+Projeto: MAGOTECH Loja Virtual
+Total de arquivos: ~75 arquivos de código
+
+═══════════════════════════════════════════════════════════════
