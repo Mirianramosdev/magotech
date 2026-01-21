@@ -5,7 +5,16 @@
 */
 
 // Access Vite environment variables directly from import.meta
-declare const __VITE_ENV__: Record<string, string>;
+interface ImportMetaEnv {
+	VITE_SUPABASE_URL?: string;
+	VITE_SUPABASE_ANON_KEY?: string;
+}
+
+declare global {
+	interface ImportMeta {
+		readonly env: ImportMetaEnv;
+	}
+}
 
 const viteUrl = (import.meta.env.VITE_SUPABASE_URL as string) || 'https://iytnisowaqccipvrknbz.supabase.co';
 const viteAnon = (import.meta.env.VITE_SUPABASE_ANON_KEY as string) || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml5dG5pc293YXFjY2lwdnJrbmJ6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTgwNDA1MTgsImV4cCI6MjA3MzYxNjUxOH0.QKX3tctn4KYe-dSPFFATRtkzLuPayqZoJMo285I9lCk';
